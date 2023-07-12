@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bryan Scott Herr CV
+title: CV - Bryan Scott Herr
 email: bryan@bryanscott.ink
 description: >- # this means to ignore newlines until "baseurl:"
   Bryan Scott Herr's has his best foot forward and would love to share 
   that experience with all future endeavors. Has extensive knowledge in 
   the IT field focusing on small business engagements.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bryanscott.ink" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima

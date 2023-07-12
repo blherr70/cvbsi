@@ -1,3 +1,4 @@
+{% for profile in site.data.profile %}
 <div class="card mb-4">
     <h2 class="card-header text-center">Contact Info</h2>
     <div class="card-body">
@@ -7,7 +8,7 @@
                 <i class="fas fa-male text-white" data-fa-transform="shrink-5"></i>
             </div>
             <div class="flex-grow-1">
-                Firstname Lastname
+                {{ profile.firstname }} {{ profile.middlename }} {{ profile.lastname }}
                 <hr>
             </div>
         </div>
@@ -27,9 +28,15 @@
                 <i class="fas fa-phone text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><a href="tel:+1234567890">(123)-456-7890</a></li>
+                <li><a href="tel:+1234567890">
+                    {{ profile.pubphone }}
+                </a></li>
+                {% if profile.skype %}
                 <li><i class="fab fa-fw fa-skype text-muted"></i> <a href="#0">Skype_User</a></li>
+                {% endif %}
+                {% if profile.whatsapp %}
                 <li><i class="fab fa-fw fa-whatsapp text-muted"></i> <a href="#0">Whatsapp_User</a></li>
+                {% endif %}
                 <li><hr></li>
             </ul>
         </div>
@@ -39,9 +46,15 @@
                 <i class="fas fa-envelope text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><a href="mailto:mail@domain.com">mail@domain.com</a></li>
-                <li><i class="fab fa-fw fa-linkedin text-muted"></i> <a href="#0">LinkedIn</a></li>
-                <li><i class="fab fa-fw fa-twitter text-muted"></i> <a href="#0">@twitterUser</a></li>
+                <li><a href="mailto:mail@domain.com">
+                    {{ profile.email }}
+                </a></li>
+                {% if profile.linkedin %}
+                <li><i class="fab fa-fw fa-linkedin text-muted"></i> <a href="{{ profile.linkedin }}">LinkedIn</a></li>
+                {% endif %}
+                {% if profile.twitter %}
+                <li><i class="fab fa-fw fa-twitter text-muted"></i> <a href="https://twitter.com/{{ profile.twitter }}">@{{ profile.twitter }}</a></li>
+                {% endif %}
                 <li><hr></li>
             </ul>
         </div>
@@ -52,20 +65,33 @@
             </div>
             <div class="flex-grow-1">
                 <address class="mb-0">
-                    Street Name 123<br>
-                    ZIP Code and City<br>
-                    Country
+                    {% if profile.showpermaddress %}
+                    {{ profile.permaddress.street }}
+                    <br>
+                    {{ profile.permaddress.city }}
+                    <br>
+                    {{ profile.permaddress.country }}
+                    {% else %}
+                    {{ profile.tempaddress.street }}
+                    <br>
+                    {{ profile.tempaddress.city }}
+                    <br>
+                    {{ profile.tempaddress.country }}
+                    {% endif %}
                 </address>
+                {% if profile.showcontactform %}
                 <hr>
+                {% endif %}
             </div>
         </div>
+        {% if profile.showcontactform %}
         <div class="d-flex align-items-start">
             <div class="fa-layers fa-fw fa-2x me-3">
                 <i class="fas fa-circle text-primary"></i>
                 <i class="fas fa-at text-white" data-fa-transform="shrink-8"></i>
             </div>
             <div class="flex-grow-1">
-                <form>
+                <form action="mailto:bryan@bryanscott.ink">
                     <div class="mb-3">
                         <div class="input-group input-group-sm">
                             <span class="input-group-text" id="name">Name:</span>
@@ -88,5 +114,7 @@
                 </form>
             </div>
         </div>
+        {% endif %}
     </div>
 </div>
+{% endfor %}
