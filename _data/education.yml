@@ -1,58 +1,8 @@
 -
-  title: 0Front-End Developer
-  icon: fa-facebook
-  name: Facebook
-  url: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  description: Main programmer on Mainframe computers. 
--
-  title: 1Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
--
-  title: 2Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
--
-  title: 3Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
--
-  title: 4Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
--
-  title: 5Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
--
-  title: 6Front-End Developer
-  jobicon: fa-facebook
-  jobname: Facebook
-  Joburl: https://facebook.com
-  startdate: January 2020
-  enddate: December 2020
-  jopbdescription: Main programmer on Mainframe computers. 
-
-
+  degree: Some College
+  icon: fas fa-university
+  name: Oakland Community College
+  url: https://www.oaklandcc.edu/
+  startdate: 1994
+  enddate: 1998
+  description: General education.

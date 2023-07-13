@@ -17,8 +17,7 @@
         {% endfor %}
         <div class="collapse" id="collapse-work">
             {% for job in site.data.work-experience offset: 3 %}
-            <div class="d-flex align-items-start mb-2">
-                
+            <div class="d-flex align-items-start mb-2">                
                 <i class="{{ job.icon }} fa-fw fa-3x text-primary me-2"></i>
                 <div class="flex-grow-1">
                     <h3 class="h4 mb-1">{{ job.title }}</h3>

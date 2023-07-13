@@ -1,4 +1,4 @@
-- 
+-
   firstname: Bryan
   middlename: Scott
   lastname: Herr
@@ -19,15 +19,15 @@
     street: "285 Midway School Rd."
     city: "Homerville, GA  31634"
     country: USA
-  
+
   # Social Connections
   linkedin: https://www.linkedin.com/in/bryanherr/
   twitter: bryanscottherr
   skype: 
-  whatsapp:
+  whatsapp: 
 
   # Contact form
   showcontactform: no
 
-
-
+  # Testimonials
+  showtestimonials: no

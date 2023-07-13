@@ -1,0 +1,32 @@
+- 
+  name: HTML5
+  icon: fa-html5
+  percent: 75
+- 
+  name: CSS3
+  icon: fa-css3
+  percent: 100
+- 
+  name: Angular
+  icon: fa-angular
+  percent: 100
+- 
+  name: React
+  icon: fa-react
+  percent: 50
+- 
+  name: NPM
+  icon: fa-npm
+  percent: 25
+- 
+  name: Gulp
+  icon: fa-gulp
+  percent: 75
+- 
+  name: Drupal
+  icon: fa-drupal
+  percent: 25
+- 
+  name: Joomla
+  icon: fa-joomla
+  percent: 75
