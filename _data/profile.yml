@@ -30,4 +30,12 @@
   showcontactform: no
 
   # Testimonials
-  showtestimonials: no
+  showtestimonialscard: no
+
+  # Portfolio
+  showportfoliocard: yes
+  showwebsites: yes
+  showbackends: no
+  showfrontends: no
+  showimages: no
+  showvideos: no
