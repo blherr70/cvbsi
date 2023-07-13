@@ -1,7 +1,8 @@
 -
-  lead: "*dolor sit amet, consectetur adipiscing elit. Phasellus orci massa, maximus a velit sit amet, fringilla convallis tellus."
-  toptext: "*Morbi auctor consectetur convallis. Suspendisse at lobortis libero. Curabitur commodo dapibus rhoncus. Donec accumsan magna et magna auctor pretium. Proin lectus augue, tincidunt eu quam in, finibus imperdiet lectus. Donec commodo, est eu semper pellentesque, sapien arcu tempor leo, quis commodo nisl arcu vitae ligula. Duis et elit ut quam finibus accumsan vitae non leo."
+  # Leave blank to not show it.
+  lead: "The ultimate goal is to find something you <b>love</b> to do. If you get paid for it, even better."
+  toptext: ""
   quote:
-    text: "*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci massa, maximus a velit sit amet, fringilla convallis tellus."
+    text: "Live your life like it's your last; because it is!"
     author: "Bryan Herr"
-  bottomtext: "*Aenean sit amet feugiat nibh, at tempor quam. Phasellus pretium vitae urna sit amet ultrices. Morbi malesuada nulla eu ipsum sagittis, nec dignissim turpis iaculis. Nullam laoreet interdum lorem sit amet egestas. Quisque ultricies porta dolor, eget dapibus dui. Praesent porttitor quam a quam faucibus volutpat. Pellentesque aliquam convallis faucibus. Pellentesque rhoncus euismod fermentum."
+  bottomtext: ""

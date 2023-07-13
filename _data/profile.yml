@@ -8,7 +8,7 @@
   email: bryan@bryanscott.ink
   image: img/BSH_profile_20230316.jpeg
 
-  # Addresses
+   # Addresses
   # If true, shows permaddress and not temp. If false, shows temp and not perm.
   showpermaddress: no
   permaddress: 
