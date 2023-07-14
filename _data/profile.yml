@@ -8,7 +8,7 @@
   email: bryan@bryanscott.ink
   image: img/BSH_profile_20230316.jpeg
 
-  # Addresses
+   # Addresses
   # If true, shows permaddress and not temp. If false, shows temp and not perm.
   showpermaddress: no
   permaddress: 
@@ -30,4 +30,12 @@
   showcontactform: no
 
   # Testimonials
-  showtestimonials: no
+  showtestimonialscard: no
+
+  # Portfolio
+  showportfoliocard: yes
+  showwebsites: yes
+  showbackends: no
+  showfrontends: no
+  showimages: no
+  showvideos: no

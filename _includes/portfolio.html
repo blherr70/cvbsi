@@ -1,49 +1,78 @@
+{% for profile in site.data.profile %}
+{% if profile.showportfoliocard %}
 <div class="card mb-4">
     <h2 class="card-header text-center">Portfolio</h2>
     <div class="card-body">
+        {% if profile.showwebsites %}
+        <div class="d-flex align-items-start">
+            <div class="fa-layers fa-fw fa-2x me-3">
+                <i class="fas fa-circle text-primary"></i>
+                <i class="fas fa-globe text-white" data-fa-transform="shrink-8"></i>
+            </div>
+            <ul class="flex-grow-1 list-unstyled">
+                {% for website in site.data.portfolio.websites %}
+                <li><i class="fa fa-fw {{ website.icon }} text-muted"></i> <a target="_blank" href="{{ website.url }}">{{ website.name }}</a></li>
+                {% endfor %}
+                <li><hr></li>
+            </ul>
+        </div>
+        {% endif %}
+        {% if profile.showbackends %}
         <div class="d-flex align-items-start">
             <div class="fa-layers fa-fw fa-2x me-3">
                 <i class="fas fa-circle text-primary"></i>
                 <i class="fas fa-code text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><i class="fab fa-fw fa-github text-muted"></i> <a href="#0">GitHub</a></li>
-                <li><i class="fab fa-fw fa-codepen text-muted"></i> <a href="#0">CodePen</a></li>
-                <li><i class="fab fa-fw fa-stack-overflow text-muted"></i> <a href="#0">Stack Overflow</a></li>
+                {% for backend in site.data.portfolio.backends %}
+                <li><i class="fab fa-fw {{ backend.icon }} text-muted"></i> <a href="{{ backend.url }}">{{ backend.name }}</a></li>
+                {% endfor %}
                 <li><hr></li>
             </ul>
         </div>
+        {% endif %}
+        {% if profile.showfrontends %}
         <div class="d-flex align-items-start">
             <div class="fa-layers fa-fw fa-2x me-3">
                 <i class="fas fa-circle text-primary"></i>
                 <i class="fas fa-paint-brush text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><i class="fab fa-fw fa-behance text-muted"></i> <a href="#0">Behance</a></li>
-                <li><i class="fab fa-fw fa-dribbble text-muted"></i> <a href="#0">Dribbble</a></li>
+                {% for frontend in site.data.portfolio.frontends %}
+                <li><i class="fab fa-fw {{ frontend.icon }} text-muted"></i> <a href="{{ frontend.url }}">{{ frontend.name }}</a></li>
+                {% endfor %}
                 <li><hr></li>
             </ul>
         </div>
+        {% endif %}
+        {% if profile.showimages %}
         <div class="d-flex align-items-start">
             <div class="fa-layers fa-fw fa-2x me-3">
                 <i class="fas fa-circle text-primary"></i>
                 <i class="fas fa-images text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><i class="fab fa-fw fa-flickr text-muted"></i> <a href="#0">Flickr</a></li>
-                <li><i class="fab fa-fw fa-instagram text-muted"></i> <a href="#0">Instagram</a></li>
+                {% for image in site.data.portfolio.images %}
+                <li><i class="fab fa-fw {{ image.icon }} text-muted"></i> <a href="{{ image.url }}">{{ image.name }}</a></li>
+                {% endfor %}    
                 <li><hr></li>
             </ul>
         </div>
+        {% endif %}
+        {% if profile.showvideos %}
         <div class="d-flex align-items-start">
             <div class="fa-layers fa-fw fa-2x me-3">
                 <i class="fas fa-circle text-primary"></i>
                 <i class="fas fa-video text-white" data-fa-transform="shrink-8"></i>
             </div>
             <ul class="flex-grow-1 list-unstyled">
-                <li><i class="fab fa-fw fa-youtube text-muted"></i> <a href="#0">YouTube</a></li>
-                <li><i class="fab fa-fw fa-vimeo text-muted"></i> <a href="#0">Vimeo</a></li>
+                {% for video in site.data.portfolio.videos %}
+                <li><i class="fab fa-fw {{ video.icon }} text-muted"></i> <a href="{{ video.url }}">{{ video.name }}</a></li>
+                {% endfor %} 
             </ul>
         </div>
+        {% endif %}
     </div>
 </div>
+{% endif %}
+{% endfor %}
