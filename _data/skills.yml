@@ -10,13 +10,48 @@
   name: "Mainframe - Production Control"
   subtitle: yes
 - 
-  name: test yes
-  icon: fa-html5
-  percent: 75
+  name: TWS/OPCA
+  icon: fa fa-server
+  percent: 100
 -
   name: "Mainframe - Operations"
   subtitle: yes
 - 
-  name: test no
-  icon: fa-html5
+  name: TWS/OPCA
+  icon: fa fa-server
+  percent: 100
+- 
+  name: CA7
+  icon: fa fa-server
   percent: 75
+- 
+  name: JES2
+  icon: fa fa-server
+  percent: 100
+- 
+  name: Omegamon
+  icon: fa fa-server
+  percent: 75
+-
+  name: "Windows"
+  subtitle: yes
+- 
+  name: Office
+  icon: fab fa-windows
+  percent: 100
+- 
+  name: Excel
+  icon: fab fa-windows
+  percent: 100
+- 
+  name: Word
+  icon: fab fa-windows
+  percent: 100
+- 
+  name: PowerPoint
+  icon: fab fa-windows
+  percent: 100
+- 
+  name: Database
+  icon: fab fa-windows
+  percent: 100
