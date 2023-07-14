@@ -1,3 +1,14 @@
+# FORMATTING
+#  -
+#  title: "Certificate Title"
+#  icon: "fas fa-fontawesomename"
+#  name: "Certificate Issuer"
+#  url: "Issuer URL"
+#  startdate: Month YYYY
+#  enddate: Month YYYY or Present
+#  hours: #.# in Hours
+#  description: "Certicate Description"
+#  validation: "Certificate Validation Information"
 -
   title: "Jekyll: make fast, secure static sites and blogs with Jekyll"
   icon: fas fa-certificate

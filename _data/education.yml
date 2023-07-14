@@ -1,3 +1,12 @@
+# FORMATTING
+# -
+#  degree: "Degree Name"
+#  icon: "fas fa-fontawesomename"
+#  name: "University Name"
+#  url: "University URL"
+#  startdate: Month YYYY or YYYY
+#  enddate: Month YYYY or YYYY
+#  description: "Any details to add."
 -
   degree: Some College
   icon: fas fa-university

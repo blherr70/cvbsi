@@ -1,3 +1,13 @@
+# FORMATTING
+# -
+#  title: "Job Title"
+#  icon: "fas fa-fontawesomename"
+#  name: "Company Name"
+#  url: "Company URL"
+#  location: City, ST
+#  startdate: Month YYYY
+#  enddate: Month YYYY or Present
+#  description: "Details of what work was done."
 -
   title: Computer Operator
   icon: fas fa-laptop
