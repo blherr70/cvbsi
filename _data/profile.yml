@@ -1,6 +1,6 @@
 -
   # Show Development message
-  showdevelopment: yes
+  showdevelopment: no
 
   # General Profile Details
   firstname: Bryan
