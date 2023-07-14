@@ -1,14 +1,14 @@
 <div class="card mb-4">
     <h2 class="card-header text-center">Skills</h2>
     <div class="card-body">
-        {% for mf in site.data.skills %}
-        {% if mf.subtitle %}
-        <h3 class="h5 mb-3">{{ mf.name }}</h3>
+        {% for skill in site.data.skills %}
+        {% if skill.subtitle %}
+        <h3 class="h5 mb-3">{{ skill.name }}</h3>
         {% continue %}
         {% endif %}
-        <h4 class="h6 text-muted"><i class="fab fa-fw {{ mf.icon }}"></i> {{ mf.name }}</h4>
+        <h4 class="h6 text-muted"><i class="{{ skill.icon }}"></i> {{ skill.name }}</h4>
         <div class="progress mb-3">
-            <div class="progress-bar bg-secondary w-{{ mf.percent }}" role="progressbar" aria-valuenow="{{ mf.percent }}" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-secondary w-{{ skill.percent }}" role="progressbar" aria-valuenow="{{ skill.percent }}" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         {% endfor %}
     </div>
