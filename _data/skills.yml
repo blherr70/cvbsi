@@ -11,26 +11,26 @@
   subtitle: yes
 - 
   name: TWS/OPCA
-  icon: fa fa-server
+  icon: fa fa-computer
   percent: 100
 -
   name: "Mainframe - Operations"
   subtitle: yes
 - 
   name: TWS/OPCA
-  icon: fa fa-server
+  icon: fa fa-computer
   percent: 100
 - 
   name: CA7
-  icon: fa fa-server
+  icon: fa fa-computer
   percent: 75
 - 
   name: JES2
-  icon: fa fa-server
+  icon: fa fa-computer
   percent: 100
 - 
   name: Omegamon
-  icon: fa fa-server
+  icon: fa fa-computer
   percent: 75
 -
   name: "Windows"
