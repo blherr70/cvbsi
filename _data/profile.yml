@@ -1,4 +1,8 @@
 -
+  # Show Development message
+  showdevelopment: yes
+
+  # General Profile Details
   firstname: Bryan
   middlename: Scott
   lastname: Herr
