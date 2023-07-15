@@ -17,22 +17,7 @@
 		</div>
 		{% endif %}
 		{% endfor %}
-		<div class="container mt-4">
-			<div class="row">
-				<div class="col-12 col-lg-8">
-					{% include introduction.html %}
-					{% include work-experience.html %}
-					{% include education.html %}
-					{% include certifications.html %}
-					{% include testimonials.html %}
-				</div>
-				<div class="col-12 col-lg-4">
-					{% include contact-info.html %}
-					{% include portfolio.html %}
-					{% include skills.html %}
-				</div>
-			</div>
-		</div>
+		{{ content }}
 		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
