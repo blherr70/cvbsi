@@ -10,6 +10,16 @@
 #  description: "Certicate Description"
 #  validation: "Certificate Validation Information"
 -
+ title: "CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)"
+ icon: "fas fa-certificate"
+ name: "Udemy"
+ url: "https://business.udemy.com"
+ startdate: July 2023
+ enddate: Present
+ hours: 23
+ description: "Learn CSS for the first time or brush up your CSS skills and dive in even deeper. EVERY web developer has to know CSS."
+ validation: "This certificate above verifies that Bryan Herr successfully completed the course CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass) on 07/30/2023 as taught by Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller, Manuel Lorenz on Udemy. The certificate indicates the entire course was completed as validated by the student. The course duration represents the total video hours of the course at time of most recent completion."
+-
   title: "Jekyll: make fast, secure static sites and blogs with Jekyll"
   icon: fas fa-certificate
   name: Udemy
